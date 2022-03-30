@@ -1,0 +1,54 @@
+* {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.body {
+    background-color: #202024;
+    color: #d8d9d0;
+}
+
+.main {
+    margin-left: 225px;
+}
+
+.barra_esquerda {
+    height: 100%;
+    background-image: url(img/univ-base-vertical.png);
+    background-size: contain;
+    position: fixed;
+}
+
+.foto_perfil {
+    margin-top: 10vh;
+    box-sizing: content-box;
+    height: 240px;
+    width: 180px;
+}
+
+.header {
+    padding-top: 1px;
+    padding-bottom: 0px;
+    margin-bottom: 10vh;
+    padding-left: 50px;
+    margin-left: -50px;
+    font-size: larger;
+    border-bottom: 2px solid #d8d9d0
+}
+
+.topico {
+    display: flex;
+    align-items: center;
+}
+
+.emblema {
+    float:right;
+    height: 100px;
+}
+
+.emblema_python {
+    height: 15px;
+}
+
+.emblema_pequeno {
+    height: 10px
+}
